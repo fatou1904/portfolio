@@ -115,7 +115,7 @@ export default function Home() {
 
         <div>
           <h1 className='text-center font-bold text-xl mt-10'>Projects</h1>
-          <p></p>
+          
         </div>
         
       </main>
@@ -123,7 +123,33 @@ export default function Home() {
       <footer className="border-t bg-white mt-20">
         <div className="container mx-auto px-4 py-8">
           <div className="text-center text-slate-600">
-            <p>Projet Next.js + Tailwind CSS configuré avec succès</p>
+          {/* Contact Section */}
+<section className="container mx-auto px-4 py-8 text-center">
+  <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
+  <p className="text-lg text-slate-700 mb-4">
+    I’d love to connect! Feel free to reach out to me:
+  </p>
+
+  <div className="flex flex-col gap-4 items-center">
+    <a
+      href="mailto:your-email@example.com"
+      className="text-blue-600 hover:underline"
+    >
+      fayefatou1904@gmail.com
+    </a>
+    
+    <a
+      href="https://github.com/fatou1904"
+      target="_blank"
+      className="text-blue-600 hover:underline"
+    >
+      GitHub
+    </a>
+  </div>
+
+
+</section>
+
           </div>
         </div>
       </footer>
